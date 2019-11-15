@@ -5,7 +5,7 @@ LABEL com.github.actions.description="Lint your code with eslint in parallel to 
 LABEL com.github.actions.icon="code"
 LABEL com.github.actions.color="yellow"
 
-LABEL maintainer="Alberto Gimeno <gimenete@gmail.com>"
+LABEL maintainer="Philipp Uhl <git@ph-uhl.com>"
 
 COPY lib /action/lib
 COPY package.json /action/package.json
