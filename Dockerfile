@@ -8,5 +8,5 @@ LABEL com.github.actions.color="yellow"
 LABEL maintainer="Philipp Uhl <git@ph-uhl.com>"
 
 COPY lib /action/lib
-COPY package.json /action/package.json
+COPY package.json /github/workspace/package.json
 ENTRYPOINT ["/action/lib/entrypoint.sh"]
