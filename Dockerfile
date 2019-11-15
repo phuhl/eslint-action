@@ -8,4 +8,5 @@ LABEL com.github.actions.color="yellow"
 LABEL maintainer="Alberto Gimeno <gimenete@gmail.com>"
 
 COPY lib /action/lib
+COPY package.json /action/package.json
 ENTRYPOINT ["/action/lib/entrypoint.sh"]
