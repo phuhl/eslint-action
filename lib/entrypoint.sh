@@ -1,9 +1,7 @@
 #!/bin/sh
-pwd
-ls -la ..
-ls -la ../..
+
 set -e
 
-npm install
+yarn
 
 NODE_PATH=node_modules node /action/lib/run.js
