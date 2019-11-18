@@ -2,6 +2,6 @@
 
 set -e
 
-yarn
+npm -C package.lint.json
 
 NODE_PATH=node_modules node /action/lib/run.js
