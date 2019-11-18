@@ -1,6 +1,7 @@
 #!/bin/sh
 pwd
-ls -la
+ls -la ..
+ls -la ../..
 set -e
 
 npm install
