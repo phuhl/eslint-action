@@ -7,6 +7,8 @@ LABEL com.github.actions.color="yellow"
 
 LABEL maintainer="Philipp Uhl <git@ph-uhl.com>"
 
+RUN apt-get update && apt-get install -y git 
+  
+
 COPY lib /action/lib
-COPY package.json /github/workspace/package.json
 ENTRYPOINT ["/action/lib/entrypoint.sh"]
